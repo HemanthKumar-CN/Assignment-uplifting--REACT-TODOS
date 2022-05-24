@@ -1,0 +1,46 @@
+.striked
+{
+    text-decoration: line-through;
+    /* color:#f8f7f3 */
+    border: 3px solid rgb(14, 232, 14);
+    width: 80%;
+    margin: auto;
+}
+
+.font
+{
+    color: white;
+    width: 80%;
+    height: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.font::-webkit-input-placeholder
+{
+    color: #f8f7f3;
+    font-size: large;
+}
+
+.fullBox
+{
+    border: 1px solid red;
+    width: 30%;
+    text-align: center;
+}
+
+.listScroll
+{
+    border: 1px solid blue;
+}
+
+.dot
+{
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding:1rem 1rem ;
+    margin-top: 10px;
+}
